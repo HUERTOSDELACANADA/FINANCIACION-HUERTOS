@@ -7,8 +7,11 @@ export const LINKS = {
   maps: "https://maps.app.goo.gl/iDz9J1orDJpZvQ67A",
   video: "https://youtu.be/mmd3os4GG8s?si=K3dqhIweRx_2maaP",
   web: "https://xn--huertosdelacaada-jub.com/#contact",
-  ualLogo: "https://drive.google.com/thumbnail?id=1cJQ9faDsOJtYXDj7SAOT1qfrWQ0r8egw&sz=w200",
-  huertosLogo: "https://drive.google.com/thumbnail?id=1zjQfI_8CWFkWOOBGhpsKNo2ZWlW4mXQx&sz=w500",
+  
+  // Logos corregidos usando Google Cloud Storage
+  ualLogo: "https://storage.googleapis.com/huertos-planos/logo-ual.png",
+  huertosLogo: "https://storage.googleapis.com/huertos-planos/HUERTOS%20LOGO.jpg",
+  
   studentRentForecast: "https://drive.google.com/file/d/1nVN7A1qKV8g3M-uvt7_lk6qGWj_qmqfU/view?usp=drive_link",
 };
 
@@ -20,10 +23,11 @@ export const IMAGES = [
   "https://drive.google.com/thumbnail?id=1zPe3b7mtwPtKEmYVdh4VMqwJYWseqBPd&sz=w1000",
 ];
 
+// Logos de Partners corregidos usando Google Cloud Storage
 export const PARTNER_LOGOS = [
-  "https://drive.google.com/thumbnail?id=1HOtTNeUrmznFsK499fuyGil3YEqjn_rm&sz=w400",
-  "https://drive.google.com/thumbnail?id=1PHSQp9xW9QP63F88_ESGRyHFSj5hj3YN&sz=w400",
-  "https://drive.google.com/thumbnail?id=1zD2kHQ8v390B8jCgqAC3Z1CtDX0EYU-U&sz=w400"
+  "https://storage.googleapis.com/huertos-planos/LOGO%20FERRER%20ARQUITECTOS.jpeg",
+  "https://storage.googleapis.com/huertos-planos/LOGO%20ERY%20CONSULTING.png",
+  "https://storage.googleapis.com/huertos-planos/MORETURISMO%20LOGO.jpeg"
 ];
 
 // Helper to calculate from Total (User provided Totals in the new table)
@@ -126,14 +130,4 @@ export const PROPERTIES: Property[] = [
   { id: 'v5', number: 5, name: "VILLA NARANJA", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
   { id: 'v6', number: 6, name: "VILLA TOMILLO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
   { id: 'v7', number: 7, name: "VILLA LIMONES", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v8', number: 8, name: "VILLA ROMERO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v9', number: 9, name: "VILLA ALBAHACA", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v10', number: 10, name: "VILLA MANZANILLA", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v11', number: 11, name: "VILLA INOJOS", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v12', number: 12, name: "VILLA MENTA", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v13', number: 13, name: "VILLA JAMINES", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v14', number: 14, name: "VILLA OREGANO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  
-  { id: 'v15', number: 15, name: "VILLA HIERBA BUENA", type: 'Parcela', street: 'Calle Miramar', areaInterior: 162.92, areaTotal: 272.29, financials: PLAN_PARCELA_15 },
-  { id: 'v16', number: 16, name: "VILLA AMAPOLA", type: 'Parcela Piscina', street: 'Calle Diario de Almería', areaInterior: 162.92, areaTotal: 305.09, financials: PLAN_PARCELA_16 },
-];
+  { id: 'v8', number: 8, name: "VILLA ROMERO", type: 'Normal', street: 'Calle Diario de Almería',
