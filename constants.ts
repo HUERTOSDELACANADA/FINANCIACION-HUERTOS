@@ -15,12 +15,13 @@ export const LINKS = {
   studentRentForecast: "https://drive.google.com/file/d/1nVN7A1qKV8g3M-uvt7_lk6qGWj_qmqfU/view?usp=drive_link",
 };
 
+// Carrusel corregido usando Google Cloud Storage
 export const IMAGES = [
-  "https://drive.google.com/thumbnail?id=1jvAdC-anFwsN5rhkcReZUM-q_TSz86Vg&sz=w1000",
-  "https://drive.google.com/thumbnail?id=1gwgNPCJEQXZyCfXrbjJ1-t_HYNYVq9ci&sz=w1000",
-  "https://drive.google.com/thumbnail?id=10R3OMtd_c4mACkg9lL680VlGBxxjwMSx&sz=w1000",
-  "https://drive.google.com/thumbnail?id=1B659iviiZ5Czt26AakDwHh-cThdy-4YC&sz=w1000",
-  "https://drive.google.com/thumbnail?id=1zPe3b7mtwPtKEmYVdh4VMqwJYWseqBPd&sz=w1000",
+  "https://storage.googleapis.com/huertos-planos/carrusel-2.jpg",
+  "https://storage.googleapis.com/huertos-planos/carrusel-3.jpg",
+  "https://storage.googleapis.com/huertos-planos/carrusel-4.jpg",
+  "https://storage.googleapis.com/huertos-planos/carrusel-5.jpg",
+  "https://storage.googleapis.com/huertos-planos/carrusel-6.jpg",
 ];
 
 // Logos de Partners corregidos usando Google Cloud Storage
