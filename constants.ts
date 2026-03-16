@@ -9,7 +9,7 @@ export const LINKS = {
   web: "https://xn--huertosdelacaada-jub.com/#contact",
   
   // Logos corregidos usando Google Cloud Storage
-  ualLogo: "https://storage.googleapis.com/huertos-planos/logo-ual.png",
+  ualLogo: "https://storage.googleapis.com/huertos-planos/logo-ual.jpg",
   huertosLogo: "https://storage.googleapis.com/huertos-planos/HUERTOS%20LOGO.jpg",
   
   studentRentForecast: "https://drive.google.com/file/d/1nVN7A1qKV8g3M-uvt7_lk6qGWj_qmqfU/view?usp=drive_link",
