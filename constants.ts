@@ -49,7 +49,7 @@ const monthlyNote = (total: number, months: number) => {
 // Financial Templates based on New Data Table
 // V1, V2: Total Aportado 92.482,00 €
 const PLAN_ESQUINA: FinancialPlan = {
-  basePrice: 250000, // Manteniendo precio base original referencia
+  basePrice: 250000,
   totalVat: 25000,
   totalPrice: 275000,
   breakdown: [
@@ -59,8 +59,8 @@ const PLAN_ESQUINA: FinancialPlan = {
     fromTotal(20982.00, "Entrega de Llaves", "Mayo 2028"),
   ],
   mortgage: {
-    loanAmount: 173269.80, // Exact value provided
-    monthlyPayment30y: 745 // Est calculated
+    loanAmount: 173269.80,
+    monthlyPayment30y: 745
   }
 };
 
@@ -76,8 +76,8 @@ const PLAN_NORMAL: FinancialPlan = {
     fromTotal(19555.22, "Entrega de Llaves", "Mayo 2028"),
   ],
   mortgage: {
-    loanAmount: 161487.45, // Exact value provided
-    monthlyPayment30y: 695 // Est calculated
+    loanAmount: 161487.45,
+    monthlyPayment30y: 695
   }
 };
 
@@ -93,8 +93,8 @@ const PLAN_PARCELA_15: FinancialPlan = {
     fromTotal(21401.64, "Entrega de Llaves", "Mayo 2028"),
   ],
   mortgage: {
-    loanAmount: 176735.20, // Exact value provided
-    monthlyPayment30y: 760 // Est calculated
+    loanAmount: 176735.20,
+    monthlyPayment30y: 760
   }
 };
 
@@ -110,16 +110,10 @@ const PLAN_PARCELA_16: FinancialPlan = {
     fromTotal(21821.28, "Entrega de Llaves", "Mayo 2028"),
   ],
   mortgage: {
-    loanAmount: 180200.59, // Exact value provided
-    monthlyPayment30y: 775 // Est calculated
+    loanAmount: 180200.59,
+    monthlyPayment30y: 775
   }
 };
-
-// Measurements Reference from PDF:
-// V1, V2: Int: 162.92, Total: 257.36
-// Normal (3-14): Int: 160.35, Total: 254.79
-// V15: Int: 162.92, Total: 272.29
-// V16: Int: 162.92, Total: 305.09
 
 export const PROPERTIES: Property[] = [
   { id: 'v1', number: 1, name: "VILLA GRANADA", type: 'Esquina', street: 'Calle Carlos V', areaInterior: 162.92, areaTotal: 257.36, financials: PLAN_ESQUINA },
@@ -130,4 +124,14 @@ export const PROPERTIES: Property[] = [
   { id: 'v5', number: 5, name: "VILLA NARANJA", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
   { id: 'v6', number: 6, name: "VILLA TOMILLO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
   { id: 'v7', number: 7, name: "VILLA LIMONES", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
-  { id: 'v8', number: 8, name: "VILLA ROMERO", type: 'Normal', street: 'Calle Diario de Almería',
+  { id: 'v8', number: 8, name: "VILLA ROMERO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v9', number: 9, name: "VILLA ALBAHACA", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v10', number: 10, name: "VILLA MANZANILLA", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v11', number: 11, name: "VILLA INOJOS", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v12', number: 12, name: "VILLA MENTA", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v13', number: 13, name: "VILLA JAMINES", type: 'Normal', street: 'Calle Miramar', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  { id: 'v14', number: 14, name: "VILLA OREGANO", type: 'Normal', street: 'Calle Diario de Almería', areaInterior: 160.35, areaTotal: 254.79, financials: PLAN_NORMAL },
+  
+  { id: 'v15', number: 15, name: "VILLA HIERBA BUENA", type: 'Parcela', street: 'Calle Miramar', areaInterior: 162.92, areaTotal: 272.29, financials: PLAN_PARCELA_15 },
+  { id: 'v16', number: 16, name: "VILLA AMAPOLA", type: 'Parcela Piscina', street: 'Calle Diario de Almería', areaInterior: 162.92, areaTotal: 305.09, financials: PLAN_PARCELA_16 },
+];
