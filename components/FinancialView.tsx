@@ -44,7 +44,7 @@ const FinancialView: React.FC<Props> = ({ property, mortgagePercent, onMortgageC
   const monthlyConstructionPayment = getVal(itemObra) / quotaDivisor;
 
   // Visual Timeline Intervals
-  const monthsReservaToSolar = 11; 
+  const monthsReservaToSolar = 2; 
   const monthsSolarToObra = 2;     
   const monthsObraToKeys = 15;     
 
@@ -245,7 +245,7 @@ const FinancialView: React.FC<Props> = ({ property, mortgagePercent, onMortgageC
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-white border border-green-100 p-3 rounded-lg shadow-sm -mt-2 ml-6 relative">
                         <div className="absolute top-4 -left-2 w-4 h-4 bg-white border-l border-b border-green-100 transform rotate-45"></div>
                         <div>
-                            <span className="text-xs font-bold text-green-600 uppercase block">Ene 2026 - Hito 1</span>
+                            <span className="text-xs font-bold text-green-600 uppercase block">Octubre 2026 - Hito 1</span>
                             <span className="font-bold text-green-950">Firma Reserva</span>
                         </div>
                         <span className="font-bold text-xl text-green-800">{formatCurrency(getVal(itemReserva))}</span>
@@ -316,7 +316,7 @@ const FinancialView: React.FC<Props> = ({ property, mortgagePercent, onMortgageC
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-green-950 text-white p-4 rounded-lg shadow-lg -mt-3 ml-6 relative">
                         <div className="absolute top-4 -left-2 w-4 h-4 bg-green-950 transform rotate-45"></div>
                         <div>
-                            <span className="text-xs font-bold text-green-400 uppercase block">Mayo 2028 - FIN DE OBRA</span>
+                            <span className="text-xs font-bold text-green-400 uppercase block">2029 - ENTREGA PREVISTA</span>
                             <span className="font-bold text-lg">Entrega de Llaves</span>
                         </div>
                         <span className="font-bold text-2xl text-green-400">{formatCurrency(getVal(itemLlaves))}</span>
