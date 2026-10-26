@@ -54,10 +54,10 @@ const PLAN_ESQUINA: FinancialPlan = {
   totalVat: 25000,
   totalPrice: 275000,
   breakdown: [
-    fromTotal(13750.00, "Firma Reserva", "Ene 2026"),
+    fromTotal(13750.00, "Firma Reserva", "Octubre 2026"),
     fromTotal(49500.00, "Compra de Solar", "Dic 2026"),
     fromTotal(8250.00, "Cuotas Mensuales", "Feb 2027", monthlyNote(8250, 18)),
-    fromTotal(20982.00, "Entrega de Llaves", "Mayo 2028"),
+    fromTotal(20982.00, "Entrega de Llaves", "Prevista 2029"),
   ],
   mortgage: {
     loanAmount: 173269.80,
@@ -71,10 +71,10 @@ const PLAN_NORMAL: FinancialPlan = {
   totalVat: 23300,
   totalPrice: 256300,
   breakdown: [
-    fromTotal(12815.00, "Firma Reserva", "Ene 2026"),
+    fromTotal(12815.00, "Firma Reserva", "Octubre 2026"),
     fromTotal(46134.00, "Compra de Solar", "Dic 2026"),
     fromTotal(7689.00, "Cuotas Mensuales", "Feb 2027", monthlyNote(7689, 18)),
-    fromTotal(19555.22, "Entrega de Llaves", "Mayo 2028"),
+    fromTotal(19555.22, "Entrega de Llaves", "Prevista 2029"),
   ],
   mortgage: {
     loanAmount: 161487.45,
@@ -88,10 +88,10 @@ const PLAN_PARCELA_15: FinancialPlan = {
   totalVat: 25500,
   totalPrice: 280500,
   breakdown: [
-    fromTotal(14025.00, "Firma Reserva", "Ene 2026"),
+    fromTotal(14025.00, "Firma Reserva", "Octubre 2026"),
     fromTotal(50490.00, "Compra de Solar", "Dic 2026"),
     fromTotal(8415.00, "Cuotas Mensuales", "Feb 2027", monthlyNote(8415, 18)),
-    fromTotal(21401.64, "Entrega de Llaves", "Mayo 2028"),
+    fromTotal(21401.64, "Entrega de Llaves", "Prevista 2029"),
   ],
   mortgage: {
     loanAmount: 176735.20,
@@ -105,10 +105,10 @@ const PLAN_PARCELA_16: FinancialPlan = {
   totalVat: 26000,
   totalPrice: 286000,
   breakdown: [
-    fromTotal(14300.00, "Firma Reserva", "Ene 2026"),
+    fromTotal(14300.00, "Firma Reserva", "Octubre 2026"),
     fromTotal(51480.00, "Compra de Solar", "Dic 2026"),
     fromTotal(8580.00, "Cuotas Mensuales", "Feb 2027", monthlyNote(8580, 18)),
-    fromTotal(21821.28, "Entrega de Llaves", "Mayo 2028"),
+    fromTotal(21821.28, "Entrega de Llaves", "Prevista 2029"),
   ],
   mortgage: {
     loanAmount: 180200.59,
